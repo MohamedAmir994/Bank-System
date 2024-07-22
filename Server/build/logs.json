@@ -1,0 +1,154 @@
+{
+    "1234": {
+        "transactions": [
+            {
+                "amount": -500,
+                "timestamp": "2024-07-22T05:37:26",
+                "type": "transaction"
+            },
+            {
+                "amount": -5000,
+                "timestamp": "2024-07-22T05:59:35",
+                "type": "transaction"
+            }
+        ]
+    },
+    "5678": {
+        "transactions": [
+            {
+                "amount": 500,
+                "timestamp": "2024-07-22T05:37:26",
+                "type": "transaction"
+            },
+            {
+                "amount": 50,
+                "timestamp": "2024-07-22T05:56:10",
+                "type": "transaction"
+            },
+            {
+                "amount": 50,
+                "timestamp": "2024-07-22T05:57:06",
+                "type": "transaction"
+            },
+            {
+                "amount": 50,
+                "timestamp": "2024-07-22T05:57:13",
+                "type": "transaction"
+            },
+            {
+                "amount": 5000,
+                "timestamp": "2024-07-22T05:59:35",
+                "type": "transaction"
+            },
+            {
+                "amount": 500,
+                "timestamp": "2024-07-22T06:02:24",
+                "type": "transaction"
+            },
+            {
+                "amount": 500,
+                "timestamp": "2024-07-22T06:02:29",
+                "type": "transaction"
+            },
+            {
+                "amount": 5000,
+                "timestamp": "2024-07-22T06:06:02",
+                "type": "transaction"
+            }
+        ]
+    },
+    "9123": {
+        "transactions": [
+            {
+                "amount": 100,
+                "timestamp": "2024-07-22T02:48:06",
+                "type": "transaction"
+            },
+            {
+                "amount": 200,
+                "timestamp": "2024-07-22T02:48:09",
+                "type": "transaction"
+            },
+            {
+                "amount": 300,
+                "timestamp": "2024-07-22T02:48:12",
+                "type": "transaction"
+            },
+            {
+                "amount": 400,
+                "timestamp": "2024-07-22T02:48:15",
+                "type": "transaction"
+            },
+            {
+                "amount": 500,
+                "timestamp": "2024-07-22T02:48:18",
+                "type": "transaction"
+            },
+            {
+                "amount": 0,
+                "timestamp": "2024-07-22T05:46:45",
+                "type": "transaction"
+            },
+            {
+                "amount": 0,
+                "timestamp": "2024-07-22T05:46:47",
+                "type": "transaction"
+            },
+            {
+                "amount": -50,
+                "timestamp": "2024-07-22T05:56:10",
+                "type": "transaction"
+            },
+            {
+                "amount": -50,
+                "timestamp": "2024-07-22T05:57:06",
+                "type": "transaction"
+            },
+            {
+                "amount": -50,
+                "timestamp": "2024-07-22T05:57:13",
+                "type": "transaction"
+            },
+            {
+                "amount": -500,
+                "timestamp": "2024-07-22T06:02:24",
+                "type": "transaction"
+            },
+            {
+                "amount": -500,
+                "timestamp": "2024-07-22T06:02:29",
+                "type": "transaction"
+            },
+            {
+                "amount": -5000,
+                "timestamp": "2024-07-22T06:06:02",
+                "type": "transaction"
+            },
+            {
+                "amount": 500,
+                "timestamp": "2024-07-22T21:34:43",
+                "type": "transaction"
+            },
+            {
+                "amount": 5748,
+                "timestamp": "2024-07-22T21:37:08",
+                "type": "transaction"
+            },
+            {
+                "amount": 500,
+                "timestamp": "2024-07-22T21:38:26",
+                "type": "transaction"
+            },
+            {
+                "amount": 500,
+                "timestamp": "2024-07-22T22:04:31",
+                "type": "transaction"
+            },
+            {
+                "amount": 500,
+                "timestamp": "2024-07-22T22:07:00",
+                "type": "transaction"
+            }
+        ]
+    }
+}

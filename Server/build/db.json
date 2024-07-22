@@ -1,0 +1,34 @@
+[
+    {
+        "Accountnumber": 1234,
+        "Age": 26,
+        "ID": 1,
+        "UserName": "Amir",
+        "balance": 22216500,
+        "fullname": "Mohamed Amir Salah"
+    },
+    {
+        "Accountnumber": 5678,
+        "Age": 26,
+        "ID": 2,
+        "UserName": "Mans",
+        "balance": 43650,
+        "fullname": "Mohamed Ahmed Mansour"
+    },
+    {
+        "Accountnumber": 9123,
+        "Age": 26,
+        "ID": 3,
+        "UserName": "Sharky",
+        "balance": 17448,
+        "fullname": "Mohamed Ashraf Sharkawy"
+    },
+    {
+        "Accountnumber": 9634,
+        "Age": 27,
+        "ID": 4,
+        "UserName": "Mozy",
+        "balance": 700000000,
+        "fullname": "Hamza Abd Elrahman Khaled"
+    }
+]

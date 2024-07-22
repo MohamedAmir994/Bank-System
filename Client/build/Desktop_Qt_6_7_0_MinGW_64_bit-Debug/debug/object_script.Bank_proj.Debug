@@ -1,0 +1,11 @@
+debug/MyClient.o
+debug/admininterface.o
+debug/createuserwindow.o
+debug/main.o
+debug/mainwindow.o
+debug/viewdbwindow.o
+debug/moc_MyClient.o
+debug/moc_admininterface.o
+debug/moc_createuserwindow.o
+debug/moc_mainwindow.o
+debug/moc_viewdbwindow.o

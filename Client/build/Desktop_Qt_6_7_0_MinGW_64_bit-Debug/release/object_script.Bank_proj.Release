@@ -1,0 +1,11 @@
+release/MyClient.o
+release/admininterface.o
+release/createuserwindow.o
+release/main.o
+release/mainwindow.o
+release/viewdbwindow.o
+release/moc_MyClient.o
+release/moc_admininterface.o
+release/moc_createuserwindow.o
+release/moc_mainwindow.o
+release/moc_viewdbwindow.o

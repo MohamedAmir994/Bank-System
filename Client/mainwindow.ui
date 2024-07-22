@@ -1,0 +1,2062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1365</width>
+    <height>903</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 127);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>1341</width>
+      <height>841</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="Logintab">
+     <attribute name="title">
+      <string>Login</string>
+     </attribute>
+     <widget class="QLabel" name="userla">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>260</y>
+        <width>271</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>User Name :</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>190</y>
+        <width>481</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Developed By Eng. Mohamed Amir</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>50</y>
+        <width>551</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 22pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Welcome To Amir's Bank System</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="userle">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>310</y>
+        <width>281</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="passle">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>420</y>
+        <width>281</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="loginpb">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>600</y>
+        <width>301</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(85, 170, 255);
+background-color: rgb(0, 0, 255);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Login</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="passla">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>380</y>
+        <width>371</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Pass Word :</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="AdminTab">
+     <attribute name="title">
+      <string>Admin </string>
+     </attribute>
+     <widget class="QPushButton" name="LogoutPb">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>700</y>
+        <width>521</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Logout</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>351</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="title">
+       <string>Create User</string>
+      </property>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Age</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="BalanceLe">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>200</y>
+         <width>151</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="CreatePb_2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>250</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Create</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="fullNameLe">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>40</y>
+         <width>151</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>160</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>User Name</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Balance</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>250</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Full Name</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>120</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Account Number</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="ageLe">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>80</y>
+         <width>151</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="userNameLe">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>160</y>
+         <width>151</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="accountNmLe">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>120</y>
+         <width>151</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="viewdb">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>340</y>
+        <width>401</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+border-color: rgb(255, 0, 255);</string>
+      </property>
+      <property name="title">
+       <string>View Data Base</string>
+      </property>
+      <widget class="QPushButton" name="viewdbPb">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>300</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>View</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>300</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="tableWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>401</width>
+         <height>192</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="verticalScrollMode">
+        <enum>QAbstractItemView::ScrollPerPixel</enum>
+       </property>
+       <property name="horizontalScrollMode">
+        <enum>QAbstractItemView::ScrollPerPixel</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>340</y>
+        <width>301</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+border-color: rgb(255, 0, 255);</string>
+      </property>
+      <property name="title">
+       <string>Delete User</string>
+      </property>
+      <widget class="QLineEdit" name="DeleteLe">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>150</y>
+         <width>231</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>100</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Enter Account Number :</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="Deletepb">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>300</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Delete</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>300</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>0</y>
+        <width>341</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);
+border-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="title">
+       <string>Update User</string>
+      </property>
+      <widget class="QLineEdit" name="updateBalanceLe">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>200</y>
+         <width>151</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="updatePb">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>250</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Update</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="updateaccnumLe">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>40</y>
+         <width>151</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Age</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>160</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>User Name</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Balance</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>250</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Account Number</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="updateageLe">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>80</y>
+         <width>151</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="updateUserNameLe">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>160</y>
+         <width>151</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="updatefullnameLe">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>120</y>
+         <width>151</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>120</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Full Name</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>0</y>
+        <width>301</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="title">
+       <string>View Account Number</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>250</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="viewaccPb">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>250</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Get Num</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="viewaccLe">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>110</y>
+         <width>221</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>60</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Enter User Name :</string>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="viewaccLw">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>200</y>
+         <width>221</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>160</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Account Number :</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>0</y>
+        <width>301</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="title">
+       <string>View Account Balance</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_13">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>250</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_24">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>160</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Account Balance :</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="viewaccBAdPb">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>250</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>View</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="viewaccBLe">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>110</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>60</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Enter Account number :</string>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="accBLw">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>200</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_12">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>340</y>
+        <width>531</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="title">
+       <string>View Transaction History</string>
+      </property>
+      <widget class="QLabel" name="label_25">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>230</y>
+         <width>181</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Num of Transactions:</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>300</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="viewTransPb_2">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>300</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>View</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_27">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>260</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Account Number :</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="NumTransLe_2">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>230</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="accNumTransLe_2">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>260</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="tableWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>531</width>
+         <height>192</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="verticalScrollMode">
+        <enum>QAbstractItemView::ScrollPerPixel</enum>
+       </property>
+       <property name="horizontalScrollMode">
+        <enum>QAbstractItemView::ScrollPerPixel</enum>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="UserTab">
+     <attribute name="title">
+      <string>User</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_7">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>340</y>
+        <width>301</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="title">
+       <string>View Account Number</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>300</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="viewaccNUsPb">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>300</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Get Num</string>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="viewaccNUsLw">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>160</y>
+         <width>221</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>120</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Account Number :</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="LogoutPb_2">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>720</y>
+        <width>521</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 255);</string>
+      </property>
+      <property name="text">
+       <string>Logout</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_8">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>340</y>
+        <width>301</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="title">
+       <string>View Account Balance</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>300</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="viewaccBUsLw">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>160</y>
+         <width>221</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_19">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>120</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Account Balance :</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="viewaccBUsPb">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>300</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Get Balance</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_9">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>340</y>
+        <width>571</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="title">
+       <string>View Transaction History</string>
+      </property>
+      <widget class="QLabel" name="label_20">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>230</y>
+         <width>181</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Num of Transactions:</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>300</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="viewTransPb">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>300</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>View</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_26">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>260</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Account Number :</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="NumTransLe">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>230</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="accNumTransLe">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>260</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>571</width>
+         <height>192</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="verticalScrollMode">
+        <enum>QAbstractItemView::ScrollPerPixel</enum>
+       </property>
+       <property name="horizontalScrollMode">
+        <enum>QAbstractItemView::ScrollPerPixel</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_10">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>10</y>
+        <width>431</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+border-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="title">
+       <string>Transfer </string>
+      </property>
+      <widget class="QPushButton" name="MakeTransPb_2">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>260</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Confirm</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>260</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>271</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Enter your Account Number :</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="MakeTransLe_2">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>60</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_22">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>271</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+font: 700 10pt &quot;Segoe UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Enter receiver Account Number :</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="MakeTransLe_3">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>110</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="MakeTransLe_4">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>160</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_23">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>160</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Amount  :</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_11">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>10</y>
+        <width>301</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="title">
+       <string>Make Transaction</string>
+      </property>
+      <widget class="QLineEdit" name="MakeTransLe">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>120</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>260</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Clear</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="MakeTransPb">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>260</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Confirm</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_18">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>80</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 700 12pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="text">
+        <string>Amount  :</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>viewaccNUsLw</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>345</x>
+     <y>690</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>357</x>
+     <y>537</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>clicked()</signal>
+   <receiver>MakeTransLe</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>996</x>
+     <y>345</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>974</x>
+     <y>205</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>clicked()</signal>
+   <receiver>viewaccBUsLw</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>667</x>
+     <y>699</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>685</x>
+     <y>555</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_12</sender>
+   <signal>clicked()</signal>
+   <receiver>MakeTransLe_4</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>657</x>
+     <y>345</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>689</x>
+     <y>235</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_12</sender>
+   <signal>clicked()</signal>
+   <receiver>MakeTransLe_3</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>652</x>
+     <y>312</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>680</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_12</sender>
+   <signal>clicked()</signal>
+   <receiver>MakeTransLe_2</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>631</x>
+     <y>341</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>667</x>
+     <y>110</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>viewaccLw</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>599</x>
+     <y>305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>644</x>
+     <y>258</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>viewaccLe</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>309</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>613</x>
+     <y>163</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>BalanceLe</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>327</x>
+     <y>318</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>355</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>userNameLe</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>275</x>
+     <y>308</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>222</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>accountNmLe</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>262</x>
+     <y>306</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>314</x>
+     <y>182</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>ageLe</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>274</x>
+     <y>303</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>287</x>
+     <y>142</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>fullNameLe</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>257</x>
+     <y>301</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>257</x>
+     <y>102</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>DeleteLe</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>238</x>
+     <y>700</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>256</x>
+     <y>554</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>updateBalanceLe</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1255</x>
+     <y>289</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1276</x>
+     <y>254</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>updateUserNameLe</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1301</x>
+     <y>288</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1292</x>
+     <y>220</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>updatefullnameLe</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1262</x>
+     <y>301</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1257</x>
+     <y>181</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>updateageLe</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1230</x>
+     <y>304</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1230</x>
+     <y>141</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>updateaccnumLe</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1215</x>
+     <y>294</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1214</x>
+     <y>95</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_13</sender>
+   <signal>clicked()</signal>
+   <receiver>viewaccBLe</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>952</x>
+     <y>302</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>955</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_14</sender>
+   <signal>clicked()</signal>
+   <receiver>accNumTransLe_2</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1202</x>
+     <y>692</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1218</x>
+     <y>650</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_14</sender>
+   <signal>clicked()</signal>
+   <receiver>NumTransLe_2</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1183</x>
+     <y>683</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1184</x>
+     <y>623</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_14</sender>
+   <signal>clicked()</signal>
+   <receiver>tableWidget_2</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1159</x>
+     <y>695</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1155</x>
+     <y>570</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>accNumTransLe</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1168</x>
+     <y>692</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1171</x>
+     <y>653</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>NumTransLe</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1191</x>
+     <y>686</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1192</x>
+     <y>625</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>tableWidget</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1158</x>
+     <y>689</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1171</x>
+     <y>580</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>tableWidget_3</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>655</x>
+     <y>694</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>663</x>
+     <y>539</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
